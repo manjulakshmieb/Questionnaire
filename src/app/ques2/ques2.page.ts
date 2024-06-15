@@ -10,16 +10,15 @@ export class Ques2Page implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit() {
-    this.router.navigate(['/ques1']);
   }
 
     // next and prevous button logic here
 
     controlBtn(input:any) {
       if(input=="next"){
-        this.router.navigate(['/submit']);
-      }else{
         this.router.navigate(['/ques3']);
+      }else{
+        this.router.navigate(['/ques1']);
       }
       
     }

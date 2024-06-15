@@ -11,7 +11,6 @@ export class Ques3Page implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit() {
-    this.router.navigate(['/ques1']);
   }
     // next and prevous button logic here
 
@@ -19,7 +18,7 @@ export class Ques3Page implements OnInit {
     if(input=="next"){
       this.router.navigate(['/submit']);
     }else{
-      this.router.navigate(['/ques3']);
+      this.router.navigate(['/ques2']);
     }
     
   }

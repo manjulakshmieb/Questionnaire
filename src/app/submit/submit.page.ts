@@ -11,7 +11,6 @@ export class SubmitPage implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit() {
-    this.router.navigate(['/ques1']);
 
   }
 
