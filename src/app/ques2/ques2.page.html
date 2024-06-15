@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Question 2</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-list>
+        <ion-radio-group>
+          <ion-list-header>
+            <ion-label>What is the largest lake in the world?</ion-label>
+          </ion-list-header>
+          <ion-item>
+            <ion-label>Caspian Sea</ion-label>
+            <ion-radio slot="start" value="option1"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>Baikal</ion-label>
+            <ion-radio slot="start" value="option2"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </ion-list>
+      <ion-button  (click)="controlBtn('prev')">Back</ion-button>
+      <ion-button  (click)="controlBtn('next')">Next</ion-button>    </ion-card-content>
+  </ion-card>
+</ion-content>
